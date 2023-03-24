@@ -46,10 +46,10 @@
 
 	.img-robo {
 		position: relative;
-		width: 400px;   /*largura*/
-		height: 480px;   /*altura*/
-		left:660px;   /*esquerda*/
-		top: -170px;   /*direita*/
+		width: 450px;   /*largura*/
+		height: 470px;   /*altura*/
+		left:750px;   /*esquerda*/
+		top: -180px;   /*direita*/
 	}
 
 	.logo {
