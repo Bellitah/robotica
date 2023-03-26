@@ -53,6 +53,10 @@
 		margin: 0 -20px 0 0;
 	}
 
+	.img-robo:hover {
+		transition: 500ms;
+	} 
+
 	.logo {
 		position: absolute;
 		left: 1150px;
@@ -61,18 +65,30 @@
 		height: 100px; /*altura*/
 	}
 
-	.nos {
+	.sobre1 {
 		position: relative;
 		top: -800px;
 		left: 900px;
 		font-size: 45px;
 		font-family: 'Anton', sans-serif;
 		color: #FFFFFF;
+		text-decoration: none;
 	}
 
-	.nos:hover {
-		opacity: 0,3;
-		transition: 400ms;
+	.sobre1:hover {
+		transition: 1000ms;
+		color: #322073 !important;
+	} 
+
+	.sobre {
+		position: relative;
+		top: -857px;
+		right: -927px;
+		font-size: 18px;
+		font-family: 'Josefin Sans', sans-serif;
+		color: #FFFFFF;
+		text-decoration: none;
+		
 	}
 
 	/*.texto {
