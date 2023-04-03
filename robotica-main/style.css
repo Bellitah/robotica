@@ -1,0 +1,162 @@
+	/* header {
+	    background: #42208C;
+		color: #FFFFFF;
+		font-family: 'Rubik Mono One', sans-serif;
+		margin: -16px -8px 0 -8px; 
+	}
+
+	.caixa {
+		text-align: center;
+	}*/
+
+	@keyframes animação {
+		from {color: #ffffff; width: 100%;}
+		to {color: #000000; width: 0%;}
+	} 
+
+	body {
+		margin: 0;
+		padding: 0;
+		background-color: black;
+		position: relative;
+	}
+
+	.nosso-nome {
+		text-align: auto;
+		color: #FFFFFF;
+		left: 50px;
+		position: absolute;
+		font-size: 40px;
+		font-family: 'Inspiration', cursive;
+	}
+
+	/* .home {
+		text-align: auto;
+		color: #FFFFFF;
+		left: 1090px;
+		top: 35px;
+		position: absolute;
+		font-size: 22px;
+	} */
+
+	.entrada {
+		padding: 50px;
+		margin: 210px 680px 140px 90px;
+		display: inline-block;
+		position: relative;
+	}
+
+	.img-robo {
+		position: relative;
+		left: 300px;  /*esquerda*/
+		top: -180px; /*direita*/
+		width: 500px;		
+		height: 720px;
+		margin: 0 -20px 0 0;
+	}
+
+	.logo {
+		position: absolute;
+		left: 1120px;
+		top: -200px;
+		width: 100px; 
+		height: 100px; 
+	}
+
+	.sobre1 { 
+		position: relative;
+		top: -800px;
+		left: 900px;
+		font-size: 45px;
+		font-family: 'Anton', sans-serif;
+		color: #FFFFFF;
+		text-decoration: none;
+		animation-name: animação;
+		animation-duration: 2s;
+		animation-delay: 0s;
+		animation-direction: reverse;
+	}
+
+	 .sobre1:hover {
+		transition: 1000ms;
+		color: #322073 !important;
+	} 
+
+	 .sobre {
+		position: relative;
+		float: left;
+		top: -940px;
+		left: 924px;
+		font-size: 14px;
+		font-family: 'Josefin Sans', sans-serif;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	.trabalhos2 {
+	    position: relative;
+		top: -630px;
+		left: 24px;
+		font-size: 45px;
+		font-family: 'Anton', sans-serif;
+		color: #FFFFFF;
+		text-decoration: none;
+		animation-name: animação;
+		animation-duration: 2s;
+		animation-delay: 0s;
+		animation-direction: reverse;
+	}
+
+	.trabalhos2:hover {
+		transition: 1000ms;
+		color: #322073 !important;
+	}
+
+	.trabalhos {
+		position: relative;
+		float: left;
+		top: -700px;
+		left: -18px;
+		font-size: 14px;
+		font-family: 'Josefin Sans', sans-serif;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	.loc3 {
+		position: relative;
+		top: -500px;
+		left: 900px;
+		font-size: 45px;
+		font-family: 'Anton', sans-serif;
+		color: #FFFFFF;
+		text-decoration: none;
+		animation-name: animação;
+		animation-duration: 2s;
+		animation-delay: 0s;		
+		animation-direction: reverse;
+	}
+
+	.loc3:hover {
+		transition: 1000ms;
+		color: #322073 !important;
+	} 
+
+	.loc {
+		position: relative;
+		float: left;
+		top: -500px;
+		left: 740px;
+		font-size: 14px;
+		font-family: 'Josefin Sans', sans-serif;
+		color: #FFFFFF;
+		text-decoration: none;
+	}  
+
+	/*.texto {
+		left: -30px;
+		top: -430px;
+  		margin: 50px;
+		display: inline-block;
+		position: relative;
+	}*/
