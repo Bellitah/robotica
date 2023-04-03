@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.nosso-nome {
+    text-align: auto;
+    color: #FFFFFF;
+    left: 50px;
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Inspiration', cursive;
+}
