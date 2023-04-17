@@ -15,7 +15,7 @@ body {
 
 .mapa-conteudo {
    width: 940px;
-    height: 200px;
+    height: -200px;
     margin: 0 auto;
 }
 
