@@ -13,11 +13,6 @@ body {
     font-family: 'Inspiration', cursive;
 }
 
-.mapa {
-    padding: 3em 0;
-    background: linear-gradient(#FEFEFE, #888888);
-}
-
 .mapa-conteudo {
     width: 940px;
     margin: 0 auto;
