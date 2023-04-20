@@ -13,19 +13,17 @@ body {
     font-family: 'Inspiration', cursive;
 }
 
-.bloco { 
-    background-image: url(imagens/wallpaper002.png);
-    height: 200px;
-    border: 1px solid black;
-    border-radius: 20px;
-    margin: 10px;
-}
-     
-
 .logo {
-    position: absolute;
+    position: relative;
     left: 1120px;
-    top: -200px;
+    top: -180px;
     width: 100px; 
     height: 100px; 
+    
+}
+
+.entrada {
+    margin: 180px 0 -400px 0;
+    display: inline-block;
+    position: relative;
 }
