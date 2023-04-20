@@ -13,7 +13,7 @@ body {
     font-family: 'Inspiration', cursive;
 }
 
-.imagem { 
+.bloco { 
     background-image: url(imagens/wallpaper002.png);
     height: 200px;
     border: 1px solid black;
