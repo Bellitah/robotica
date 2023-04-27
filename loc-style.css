@@ -10,17 +10,46 @@ body {
     left: 50px;
     position: absolute;
     font-size: 40px;
+    top: -0px;
     font-family: 'Inspiration', cursive;
 }
 
-.mapa-conteudo {
-    position: relative;
-   width: 940px;
-    height: -200px;
-    margin: 0 auto;
+.logo {
+    position: absolute;
+    left: 1120px;
+    top: 20px;
+    width: 100px; 
+    height: 100px; 
 }
 
-.mapa p {
-    margin: 0 0 2em;;
+.texto-fale {
     text-align: center;
+	font-size: 2.4em;
+	margin: 1.6cm 0 1em;
+	clear: left;
+    color: #FFFFFF;
 }
+
+.texto2 {
+    margin: 0 0 1.6em;
+	text-align: center;
+    color: #FFFFFF;
+}
+
+.texto3 {
+    margin: 0 0 1.6em;
+	text-align: center;
+    color: #FFFFFF;
+}
+
+.texto4 {
+    margin: 0 0 2.5em;
+	text-align: center;
+    color: #FFFFFF;
+}
+
+.mapa-conteudo{
+	width: 940px;
+	margin: 0 auto;
+}
+
