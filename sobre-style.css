@@ -6,10 +6,25 @@ body {
 }
 
 .nosso-nome {
-    text-align: auto;
+    position: relative;
     color: #FFFFFF;
     left: 50px;
     position: absolute;
     font-size: 40px;
     font-family: 'Inspiration', cursive;
+}
+
+.logo {
+    position: absolute;
+    width: 8%; 
+    left: 1117px;
+    top: 0px;
+} 
+
+.texto {
+    text-align: center;
+    color: #FFFFFF;
+    margin: 200px;
+    position:absolute;
+    font-size: 30px;
 }
