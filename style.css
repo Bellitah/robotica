@@ -47,9 +47,9 @@
 
 	.img-robo {
 		position: absolute;
-		left: 410px;  /*esquerda*/
-		top: -180px; /*direita*/
-		height: 609px;
+		left: 430px;  /*esquerda*/
+		top: -120px; /*direita*/
+		height: 500px;
 	}
 
 	.logo {
