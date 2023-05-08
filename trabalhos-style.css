@@ -27,3 +27,12 @@ body {
     display: inline-block;
     position: relative;
 }
+
+.cruzamento {
+    position: relative;
+    left: 1120px;
+    top: -180px;
+    width: 100px; 
+    height: 100px; 
+    
+}
