@@ -38,27 +38,26 @@
 		font-size: 22px;
 	} */
 
-	.entrada {
+/*	.entrada {
 		margin: 180px 0 -400px 0;
 		display: inline-block;
 		position: relative;
-	}
+	}*/
 
 	.img-robo {
 		position: absolute;
-		left: 430px;  /*esquerda*/
-		top: -120px; /*direita*/
-		height: 500px;
+		
+		height: 970px;
 	}
 
-	.logo {
+/*	.logo {
 		position: absolute;
 		left: 1120px;
 		top: -180px;
 		width: 100px; 
 		height: 100px; 
 		
-	}
+	}*/
 
 	.sobre1 { 
 		position: absolute;
