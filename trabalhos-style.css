@@ -29,9 +29,11 @@ body {
 }
 
 .imagem {
-    position: relative;
-
-    width: 35%; 
+    position: absolute;
+    width: 202px;
+    height: 218px;
+    left: 155px;
+    top: 61px;
   
     
 }
@@ -42,10 +44,5 @@ body {
     height: 218px;
     left: 155px;
     top: 61px;
-    
-    
-    
-  
-    
 }
 
