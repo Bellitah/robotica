@@ -1,14 +1,3 @@
-	/* header {
-	    background: #42208C;
-		color: #FFFFFF;
-		font-family: 'Rubik Mono One', sans-serif;
-		margin: -16px -8px 0 -8px; 
-	}
-
-	.caixa {
-		text-align: center;
-	}*/
-
 	@keyframes animação {
 		from {color: #ffffff; width: 100%;}
 		to {color: #000000; width: 0%;}
@@ -29,35 +18,18 @@
 		font-family: 'Inspiration', cursive;
 	}
 
-	/* .home {
-		text-align: auto;
-		color: #FFFFFF;
-		left: 1090px;
-		top: 35px;
-		position: absolute;
-		font-size: 22px;
-	} */
-
-/*	.entrada {
-		margin: 180px 0 -400px 0;
-		display: inline-block;
-		position: relative;
-	}*/
-
 	.img-robo {
 		position: absolute;
-		
-		height: 970px;
+		height: 967px;
+		left: 600px;
 	}
 
-/*	.logo {
+	.logo {
 		position: absolute;
-		left: 1120px;
-		top: -180px;
-		width: 100px; 
-		height: 100px; 
+		left: 1670px;
+		height: 200px; 
 		
-	}*/
+	}
 
 	.sobre1 { 
 		position: absolute;
@@ -121,9 +93,9 @@
 
 	.loc3 {
 		position: absolute;
-		top: 230px;
-		right: -910px;
-		font-size: 45px;
+		top: 600px;
+		left: 1275px;
+		font-size: 65px;
 		font-family: 'Anton', sans-serif;
 		color: #FFFFFF;
 		text-decoration: none;
@@ -141,9 +113,9 @@
 	.loc {
 		position: absolute;
 		text-align: right;
-		top: 300px;
-		right: -1016px; 
-		font-size: 14px;
+		top: 700px;
+		right: 360px;
+		font-size: 24px;
 		font-family: 'Josefin Sans', sans-serif;
 		color: #FFFFFF;
 		text-decoration: none;
