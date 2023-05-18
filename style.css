@@ -1,132 +1,39 @@
-	@keyframes animação {
-		from {color: #ffffff; width: 100%;}
-		to {color: #000000; width: 0%;}
-	} 
+* {
+    padding: 0;
+    margin: 0;
+}
 
-	body {
-		padding: 0;
-		background-color: black;
-		position: relative;
-	}
+body {
+    height: 100vh;
+    background-color: black;
+}
 
-	.nosso-nome {
-		text-align: auto;
-		color: #FFFFFF;
-		left: 50px;
-		position: absolute;
-		font-size: 40px;
-		font-family: 'Inspiration', cursive;
-	}
+.center {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    margin: auto;
+}
 
-	.img-robo {
-		position: absolute;
-		height: 967px;
-		left: 600px;
-	}
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
 
-	.logo {
-		position: absolute;
-		left: 1670px;
-		height: 200px; 
-		
-	}
+.elemento {
+    width: 150px;
+    height: 150px;
+}
 
-	.sobre1 { 
-		position: absolute;
-		top: -19px;
-		right: -895px;
-		font-size: 45px;
-		font-family: 'Anton', sans-serif;
-		color: #FFFFFF;
-		text-decoration: none;
-		animation-name: animação;
-		animation-duration: 2s;
-		animation-delay: 0s;
-		animation-direction: reverse;
-	}
+.nosso-nome {
+    color: white;
+    font-size: 40px;
+	font-family: 'Inspiration', cursive;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
 
-	 .sobre1:hover {
-		transition: 1000ms;
-		color: #322073 !important;
-	} 
-
-	 .sobre {
-		position: absolute;
-		text-align: right;
-		top: 50px;
-		right: -925px;
-		font-size: 14px;
-		font-family: 'Josefin Sans', sans-serif;
-		color: #FFFFFF;
-		text-decoration: none;
-	}
-
-	.trabalhos2 {
-	    position: absolute;
-		top: 110px;
-		right: -266px;
-		font-size: 45px;
-		font-family: 'Anton', sans-serif;
-		color: #FFFFFF;
-		text-decoration: none;
-		animation-name: animação;
-		animation-duration: 2s;
-		animation-delay: 0s;
-		animation-direction: reverse;
-	}
-
-	.trabalhos2:hover {
-		transition: 1000ms;
-		color: #322073 !important;
-	}
-
-	.trabalhos {
-		position: absolute;
-		text-align: right;
-		top: 180px;
-		right: -340px;
-		font-size: 14px;
-		font-family: 'Josefin Sans', sans-serif;
-		color: #FFFFFF;
-		text-decoration: none;
-	}
-
-	.loc3 {
-		position: absolute;
-		top: 600px;
-		left: 1275px;
-		font-size: 65px;
-		font-family: 'Anton', sans-serif;
-		color: #FFFFFF;
-		text-decoration: none;
-		animation-name: animação;
-		animation-duration: 2s;
-		animation-delay: 0s;		
-		animation-direction: reverse;
-	}
-
-	.loc3:hover {
-		transition: 1000ms;
-		color: #322073 !important;
-	} 
-
-	.loc {
-		position: absolute;
-		text-align: right;
-		top: 700px;
-		right: 360px;
-		font-size: 24px;
-		font-family: 'Josefin Sans', sans-serif;
-		color: #FFFFFF;
-		text-decoration: none;
-	}  
-
-	/*.texto {
-		left: -30px;
-		top: -430px;
-  		margin: 50px;
-		display: inline-block;
-		position: relative;
-	}*/
-
-	
