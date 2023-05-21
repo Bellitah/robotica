@@ -9,26 +9,66 @@
     <title>Localização</title>
 
     <link rel="stylesheet" href="loc-style.css">
+    <link rel="stylesheet" href="abas-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <main>
-         <p class="nosso-nome"> D-Boots</p> 
-         <a href="abas.html">
-            <img src="logo.png" class="logo"></a>
+     <p class="nosso-nome"> D-Boots</p> 
 
-            <section class="mapa">
-                <p class="texto-fale">Fale conosco</p>
-                <p class="texto2">Av. Eng. Francisco Beltrão, 1005 - Centro, Ibiporã - PR, 86200-000</p> 
-                <p class="texto3">Colégio Unidade Polo</p>
-                <p class="texto4">Instagram: d_boots_</p>
+    <div class="container">
+        <img src="logo.png" class="elemento">
+    </div>
 
-                <div class="mapa-conteudo">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58503.19744076339!2d-46.69824986874998!3d-23.5881948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1653262588916!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </section>
-    </main>
+    <ul class="fale-conosco">
+        <li>
+            <p class="titulo">Fale conosco</p>
+            <p class="inf">Av. Eng. Francisco Beltrão, 1005 - Centro, Ibiporã - PR, 86200-000</p>     
+            <p class="inf">Colégio Unidade Polo</p> 
+            <p class="inf">Instagram: d_boots_</p>
+        </li>
+    </ul>
+
+    <div class="mapa-conteudo">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58503.19744076339!2d-46.69824986874998!3d-23.5881948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1653262588916!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <nav class="menu-lateral">
+        <ul>
+            <li class="item-menu ativo">
+                <a href="index.html">
+                    <span class="icon"><i class="bi bi-house"></i></span>
+                    <span class="txt-link">Home</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="trabalhos.htm">
+                    <span class="icon"><i class="bi bi-image"></i></span>
+                    <span class="txt-link">Trabalhos</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="sobre.html">
+                    <span class="icon"><i class="bi bi-columns-gap"></i></span>
+                    <span class="txt-link">Sobre</span>
+                </a>
+            </li>
+            <li class="item-menu">
+            <a href="loc.html">
+                <span class="icon"><i class="bi bi-geo-alt"></i></span>
+                <span class="txt-link">Localização</span>
+            </a>
+            <li class="item-menu">
+                <a href="nos.html">
+                    <span class="icon"><i class="bi bi-people-fill"></i></span>
+                    <span class="txt-link">Nós</span>
+                </a>
+            </li>
+        </ul>
+    
+       </nav>  
+   <script src="menu.js"></script>
 </body>
 </html>
    

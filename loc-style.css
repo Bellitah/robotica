@@ -1,55 +1,50 @@
-body {
-    margin: 0;
+* {
     padding: 0;
-    background-color: #000000;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.elemento {
+    width: 150px;
+    height: 150px;
 }
 
 .nosso-nome {
-    text-align: auto;
-    color: #FFFFFF;
-    left: 50px;
-    position: absolute;
+    color: white;
     font-size: 40px;
-    top: -0px;
-    font-family: 'Inspiration', cursive;
-}
-
-.logo {
+	font-family: 'Inspiration', cursive;
     position: absolute;
-    left: 1120px;
-    top: 20px;
-    width: 100px; 
-    height: 100px; 
+    top: 30px;
+    left: 150px;
 }
 
-.texto-fale {
+.fale-conosco {
     text-align: center;
-	font-size: 2.4em;
-	margin: 1.6cm 0 1em;
-	clear: left;
-    color: #FFFFFF;
+    color: white;
+    margin: -70px 0 20px 0;
+    font-size: 20px;
 }
 
-.texto2 {
-    margin: 0 0 1.6em;
-	text-align: center;
-    color: #FFFFFF;
+.titulo {
+    font-size: 40px;
+    margin: -30px 0 20px 0;
 }
 
-.texto3 {
-    margin: 0 0 1.6em;
-	text-align: center;
-    color: #FFFFFF;
-}
-
-.texto4 {
-    margin: 0 0 2.5em;
-	text-align: center;
-    color: #FFFFFF;
+.inf {
+    margin: 10px;
 }
 
 .mapa-conteudo{
-	width: 1040 px;
-	margin: 0 auto;
+	width: 100%;
+	margin: -450px 0 0 0;
 }
 
