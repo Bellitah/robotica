@@ -46,7 +46,7 @@ body {
 }
 
 .trabalho {
-    position: relative;
+    position: absolute;
     width: 330%;
     left: 62px;
     top: -49px;
