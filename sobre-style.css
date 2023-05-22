@@ -1,25 +1,32 @@
-body {
-    margin: 0;
+* {
     padding: 0;
-    background-color: black;
-    color: #ffffff;
+    margin: 0;
 }
 
-.nosso-nome {
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+/* .nosso-nome {
     position: relative;
     color: #FFFFFF;
     left: 50px;
     position: absolute;
     font-size: 40px;
     font-family: 'Inspiration', cursive;
+} */
+
+.container {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.logo {
-    position: absolute;
-    width: 8%; 
-    left: 1117px;
-    top: 0px;
-} 
+.elemento {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+}
 
 .texto {
     text-align: center;

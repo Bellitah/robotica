@@ -15,6 +15,7 @@ body {
     bottom: 0;
     left: 0;
     width: auto;
+    height: 90%;
     margin: auto;
 	max-width: 640px;
 	transform: translatey(0px);
@@ -23,13 +24,13 @@ body {
 
 @keyframes float {
 	0% {
-		transform: translatey(0px);
+		transform: translatey(30px);
 	}
 	50% { 
-		transform: translatey(-30px);
+		transform: translatey(0px);
 	}
 	100% { 
-		transform: translatey(0px);
+		transform: translatey(30px);
 	}
 }
 
@@ -39,16 +40,17 @@ body {
 }
 
 .elemento {
+    position: fixed;
     width: 150px;
     height: 150px;
 }
 
-.nosso-nome {
+/* .nosso-nome {
     color: white;
     font-size: 40px;
 	font-family: 'Inspiration', cursive;
     position: absolute;
     top: 30px;
     left: 150px;
-}
+} */
 
