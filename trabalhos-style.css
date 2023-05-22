@@ -46,10 +46,10 @@ body {
 }
 
 .trabalho {
-    position: absolute;
-    width: 330%;
-    left: 62px;
-    top: -49px;
+    position: relative;
+    width: 407px;
+    height: 386px;
+    
   
     
 }
