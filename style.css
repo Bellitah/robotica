@@ -16,16 +16,6 @@ body {
     left: 0;
     width: auto;
     margin: auto;
-}
-
-.container {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.elemento {
-    width: 150px;
-    height: 150px;
 	min-widht: 640px;
 	transform: translatey(0px);
 	animation: float 5s ease-in-out infinite;
@@ -41,6 +31,16 @@ body {
 	100% { 
 		transform: translatey(0px);
 	}
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.elemento {
+    width: 150px;
+    height: 150px;
 }
 
 .nosso-nome {
