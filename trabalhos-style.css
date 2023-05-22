@@ -1,22 +1,31 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
 body {
-    height: 100vh;
+    margin: 0;
+    padding: 0;
     background-color: black;
 }
 
-.container {
-    display: flex;
-    justify-content: flex-end;
+.nosso-nome {
+    text-align: auto;
+    color: #FFFFFF;
+    left: 50px;
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Inspiration', cursive;
 }
 
-.elemento {
-    position: fixed;
-    width: 150px;
-    height: 150px;
+.logo {
+    position: relative;
+    left: 1120px;
+    top: -180px;
+    width: 100px; 
+    height: 100px; 
+    
+}
+
+.entrada {
+    margin: 180px 0 -400px 0;
+    display: inline-block;
+    position: relative;
 }
 
 .imagem {
@@ -35,3 +44,13 @@ body {
     top: 379px;
 
 }
+
+.trabalho {
+    position: relative;
+    width: 330%;
+    left: 62px;
+    top: -49px;
+  
+    
+}
+
