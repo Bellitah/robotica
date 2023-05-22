@@ -16,7 +16,7 @@ body {
     left: 0;
     width: auto;
     margin: auto;
-	min-widht: 640px;
+	max-width: 640px;
 	transform: translatey(0px);
 	animation: float 5s ease-in-out infinite;
 }
