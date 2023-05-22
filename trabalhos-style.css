@@ -46,11 +46,8 @@ body {
 }
 
 .trabalho {
-    position: relative;
+    position: absolute;
     width: 407px;
-    height: 386px;
-    
-  
-    
-}
+   height: 386px;
 
+}
