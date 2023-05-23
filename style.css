@@ -19,7 +19,8 @@ body {
     margin: auto;
 	max-width: 640px;
 	transform: translatey(0px);
-	animation: float 5s ease-in-out infinite;
+	animation: float 6s ease-in-out infinite;
+    z-index: 1;
 }
 
 @keyframes float {
@@ -41,16 +42,16 @@ body {
 
 .elemento {
     position: fixed;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
+    z-index: 0;
 }
 
-/* .nosso-nome {
-    color: white;
-    font-size: 40px;
-	font-family: 'Inspiration', cursive;
-    position: absolute;
-    top: 30px;
-    left: 150px;
-} */
-
+@media screen and (max-width: 640px) { 
+    .center {
+        width: 100%;
+        height: 70%;
+        right: 10px;
+    }
+    
+}
