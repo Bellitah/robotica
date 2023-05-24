@@ -33,6 +33,7 @@ body {
     width: 330%;
     left: 62px;
     top: -49px;
+    border-radius: 8px;
   
     
 }
@@ -42,15 +43,12 @@ body {
     width: 330%;
     left: 62px;
     top: 379px;
+    border-radius: 8px;
 
 }
 
 .trabalho {
     position: absolute;
     width: 330%;
-    left: 2056px;
-    top: -2112px;
-
 }
-
 
