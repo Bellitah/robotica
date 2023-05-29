@@ -50,9 +50,9 @@ body {
 
 .trabalho {
     position: absolute;
-    width: 500px;
+    width: 100px;
     left: 250px;
-    top: -49px;
+    top: 100px;
     border-radius: 8px;
     
 }
