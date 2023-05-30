@@ -33,6 +33,7 @@ body {
     width: 330%;
     left: 62px;
     top: -49px;
+    border-radius: 8px;
   
     
 }
@@ -42,6 +43,7 @@ body {
     width: 330%;
     left: 62px;
     top: 379px;
+    border-radius: 8px;
 
 }
 
@@ -50,8 +52,22 @@ body {
     width: 330%;
     left: 578px;
     top: -49px;
+    border-radius: 8px;
     
 
 }
+
+.fototra {
+    position: absolute;
+    width: 330%;
+    left: 578px;
+    top: 379px;
+    border-radius: 8px;
+
+}
+
+
+
+
 
 
