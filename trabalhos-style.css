@@ -66,6 +66,15 @@ body {
 
 }
 
+.sinal {
+    position: absolute;
+    width: 330%;
+    left: 1120pxpx;
+    top: 379px;
+    border-radius: 8px;
+
+}
+
 
 
 
