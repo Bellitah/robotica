@@ -1,7 +1,6 @@
  nav.menu-lateral {
     width: 80px;
     height: 50px;
-    background-color: black;
     padding: 20px 0 40px 17px; 
     /* box-shadow: 2px 2px #78909c; */
     position: fixed;
@@ -14,7 +13,7 @@
 nav.menu-lateral:hover {
     width: 300px;
     height: 100%;
-    /* box-shadow: 2px 0 0 0 #78909c; */
+    
 }
 
 .btn-expandir {
@@ -72,3 +71,17 @@ ul li.item-menu a .icon i {
     font-size: 30px;
     margin-left: 10px;
 }
+
+@media screen and (max-width: 1024px) { 
+
+    nav .menu-lateral {
+        z-index: 1;
+    }
+    .center {
+        z-index: 0;
+    }
+    .elemento {
+        z-index: -1;
+    } 
+} 
+ 
