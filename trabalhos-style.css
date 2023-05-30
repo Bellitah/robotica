@@ -75,6 +75,14 @@ body {
 
 }
 
+.imgfootos {
+    position: absolute;
+    width: 330%;
+    left: 1080px;
+    top: -49px;
+    border-radius: 8px;
+
+}
 
 
 
