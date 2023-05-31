@@ -1,14 +1,17 @@
  nav.menu-lateral {
-    width: 80px;
-    height: 50px;
+    width: 70px;
+    height: 40px;
+    margin: 10px 0 0 0;
     padding: 20px 0 40px 17px; 
-    /* box-shadow: 2px 2px #78909c; */
+    box-shadow: 2px 2px 2px 2px #78909c; 
+    border-radius: 20px;
     position: fixed;
     top: 0;
     left: 0;
     overflow: hidden;
     transition: .5s;
-}
+    font-family: 'Geologica', sans-serif;
+ }
 
 nav.menu-lateral:hover {
     width: 300px;
