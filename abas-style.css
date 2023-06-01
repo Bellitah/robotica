@@ -4,7 +4,8 @@
     margin: 10px 0 0 0;
     padding: 20px 0 40px 17px; 
     box-shadow: 2px 2px 2px 2px #78909c; 
-    border-radius: 20px;
+    border-radius: 20px;
+    position: fixed;
     top: 0;
     left: 0;
     overflow: hidden;
