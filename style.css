@@ -31,8 +31,9 @@ body {
 }
 
 .principal {
-    position: relative;
-    top: 170px;
+   /* position: relative;
+    top: 170px;*/
+    align-items: center;
     margin:0;
     text-align:center;
     font-family: 'Geologica', sans-serif;
