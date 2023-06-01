@@ -84,4 +84,17 @@ body {
     .descricao {
         margin: -20px 0 0 0;
     }
+
+    @keyframes float {
+
+       	0% {
+
+           		transform: translatey(50px);
+       	} 
+    	   50% { 
+           		transform: translatey(0px);
+	       }
+       	100% { 
+           		transform: translatey(50px);
+        }
 }
