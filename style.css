@@ -5,231 +5,83 @@
 
 body {
     height: 100vh;
-    background: linear-gradient( #0D0D0D,#311FA6, #0D0D0D);
+    background: linear-gradient( black,#011526, black);
 }
 
-.entrada {
-    margin: 20px;
-}
-
-.pac-real {
-    float: left;
-    width: 100px;
-    margin: 0 0 0 -15px;
-}
-
-.escrita-pac {
-    margin: 20px 0 0 0;
-    width: 130px;
-    align-items: center;
-}
-
-.botao-jogar {
+.center {
     float: right;
-    text-decoration: none;
-    text-align: center;
-    color: #FCCF00;
-    font-size: 20px;
-    padding: 10px;
-    background-color: #222222;
-    cursor: pointer;
-    border: 2px solid #3B1F87;
-    border-radius: 10px;
-    /* transition: 1s all; */
-    font-family: 'Russo One', sans-serif;
+    width: 100%;
+    margin: 30px 0 0 0;
+	max-width: 510px;
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+    z-index: 1; 
 }
 
-.botao-jogar:active {
-    background-color: #444444;
-    transform: scale(1.2);
+@keyframes float {
+	0% {
+		transform: translatey(20px);
+	}
+	50% { 
+		transform: translatey(0px);
+	}
+	100% { 
+		transform: translatey(20px);
+	}
 }
 
-.historia {
-    margin: 50px 20px 0 0;
+.principal {
+    position: relative;
+    top: 170px;
+    margin:0;
+    text-align:center;
+    font-family: 'Geologica', sans-serif;
+}
+
+.nosso-nome{
+    font-size: 60px;
     color: white;
-    font-family: 'Kanit', sans-serif;
-}
-
-.titulo {
-    display: flex;
-    justify-content: flex-end;
-    color: yellow;
-    font-size: 30px;
-}
-
-.subtitulo {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 16px;
-    margin: 0 20px 0 0;
+    background-image: linear-gradient(to right, #1E1B8C, #3084F2, #3084F2, #2E38F2);  
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
 }
 
 .descricao {
-    font-size: 16px;
-    text-align: left; 
-    margin: -20px 0 0 -30px ;
-    padding: 50px;
-}
-
-.pac-correndo {
-    width: 104%;
-    height: 100%;
-}
-
-.jogo {
-    float: left;
-    width: 150px;
-    margin: 40px 20px 20px 40px;
-}
-
-.criacao {
-    font-size: 100%;
-    text-align: left; 
-    margin: -20px 0 0 -30px ;
-    padding: 50px;
-}
-
-.caixa-roxa {
-    background-color: #4227f2;
-    border-radius: 30px 30px 0 0;
-    margin: 20px;
-    padding: 20px 0 0 0;
-}
-
-.caixa-roxa p {
-    font-size: 100%;
     color: white;
-    text-align: center;
-    font-family: 'Kanit', sans-serif;
-    margin: 10px 0 0 0;
+    font-size: 20px;
+    padding: 60px;
+    margin: -20px 0 0 0;
 }
 
-h1 {
-    font-size: 200%;
-    color: white;
-    text-align: center;
-    font-family: 'Kanit', sans-serif;
-    margin: 10px;
+.container {
+    float: right;
 }
 
-.pers {
-    width: 90%;
+.elemento {
+    margin: -45px 0 0 0;
+    width: 170px;
+    height: 170px;
+    z-index: 0; 
 }
 
-.eles {
-    width: 86%;
-	padding: 18px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.eles li {
-	width: 45%;
-	margin: 2.5%;
-	padding: 30px 20px;
-    background-color: #F2522E;
-	box-sizing: border-box;
-    box-shadow: 5px 5px 0 0 ;
-    border: 4px solid #f2b84b;
-	border-radius: 10px;
-}
-
-.eles li:hover {
-    border-color: #a1700e;
-}
-
-.eles li:active {
-	border-color: #088C19;
-}
-
-
-
-@media (min-width: 600px) {
-    .entrada {
-        margin: 0 50px 0 0 ;
+@media screen and (max-width: 640px) { 
+    .center {
+        width: 100%;
+        height: 70%;
+        right: 17px;
+        float: none;
+        margin: 0 0 -70px 0;
     }
 
-    .pac-real{
-        width: 15%;
-        margin: 20px 0 0 30px;
-    }
-
-    .escrita-pac{
-        width: 20%;
-        margin: 70px 0 0 0;
-    }
-
-    .botao-jogar {
-        margin: 30px;
-        padding: 1.5%;
-        font-size: 200%;
-    }
-
-    .botao-jogar:hover{
-        background-color: #444444;
-        transform: scale(1.2);
-    }
-
-    .historia {
-        margin: 0 60px 0 0;
-    }
-
-    .titulo {
-        margin: 0 40px 0 0;
-        font-size: 400%;
-    }
-
-    .subtitulo {
-        margin: -5px 40px 20px 0;
-        font-size: 200%;
+    .elemento {
+        float: right;
+        width: 37%;
+        height: 37%;
     }
 
     .descricao {
-        margin: 0 0 0 -300px;
-        padding: 0 400px;
-        font-size: 200%;
-    }
-
-    .pac-correndo {
-        position: relative;
-        left: 12%;
-        width: 14%;
-        float: initial;
-        margin: 3%;
-
-    }
-
-    .jogo {
-        margin: 2% 3% 0 8%;
-        width: 17%;
-    }
-
-    .criacao{
-        margin: 0 0 100px 0;
-        padding: 0 100px ;
-        font-size: 200%;
-    }
-
-    .caixa-roxa {
-        width: 96%;
-        margin: 0 0 0 1.5%;
-    } 
-
-    .eles {
-        display: grid;
-        grid-template-columns: 20% 2% 20% 2% 20% 2% 20%;
-    }
-
-    .eles li{
-        width: 100%;
-        margin: 0 60% ;
-        border-radius: 20px;
-        border: 7px solid #f2b84b;
-        box-shadow: 8px 8px 0 0;
-    }
-    .eles li:hover {
-        border-color: #a1700e;
+        margin: -20px 0 0 0;
     }
 }
