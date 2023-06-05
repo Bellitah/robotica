@@ -31,7 +31,7 @@ body {
 .imagem {
     position: absolute;
     width: 330%;
-    left: 450px;
+    left: 400px;
     top: -49px;
     border-radius: 8px;
   
@@ -41,7 +41,7 @@ body {
 .ondaverde {
     position: absolute;
     width: 330%;
-    left: 450px;
+    left: 400px;
     top: 379px;
     border-radius: 8px;
 
@@ -50,7 +50,7 @@ body {
 .imgfotos {
     position: absolute;
     width: 330%;
-    left: 450px;
+    left: 400px;
     top: 810px;
     border-radius: 8px;
     
