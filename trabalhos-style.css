@@ -60,7 +60,7 @@ body {
 .cruzamentoimg {
     position: absolute;
     width: 330%;
-    left: 740px;
+    left: 810px;
     top: -49px;
     border-radius: 8px;
 
@@ -69,7 +69,7 @@ body {
 .sinalsimples {
     position: absolute;
     width: 330%;
-    left: 740px;
+    left: 810px;
     top: 379px;
     border-radius: 8px;
 
@@ -78,8 +78,8 @@ body {
 .imgfootos {
     position: absolute;
     width: 330%;
-    left: 740px;
-    top: -49px;
+    left: 810px;
+    top: 810px;
     border-radius: 8px;
 
 }
