@@ -101,6 +101,26 @@ body {
     border-radius: 8px;
 
 }
+
+.card.img1{
+ padding: 10px;
+ width: 330px;
+ min-height: 300px;
+ border-radius: 25px;
+ background: #e8e8e8;
+ position: absolute;
+ top: 150px;
+ right: 745px;
+}
+
+.card.img1:hover {
+    translate: 0 -10px;
+}
+
+.card.img1-titulodafoto{
+    font-size: 18px;
+}
+
  
  
 
