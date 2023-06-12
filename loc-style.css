@@ -38,3 +38,11 @@ body {
 .mapa-conteudo{
     width: 100%;
 }
+
+.rodape{
+    background-color: blueviolet;
+}
+
+.rodape-imagem{
+    height: 60px;
+}
