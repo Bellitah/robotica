@@ -44,5 +44,9 @@ body {
 }
 
 .rodape-imagem{
-    height: 60px;
+    position: absolute;
+    width: 330%;
+    left: 810px;
+    border-radius: 8px;
+    
 }
