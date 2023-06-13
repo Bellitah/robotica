@@ -119,11 +119,32 @@ body {
 
 .card.img1-titulodafoto{
     font-size: 18px;
+    font-weight: 600;
+    color: #2e54a7;
+    margin: 15px 0 0 10px;
+    font-family: 'Outfit';
+    font-style: normal;
+}
+
+.card.img1-img1{
+    min-height: 100px;
+    width: 100%;
+    height: 100%;
+
+    background-color: #e8e8e8;
+    border-radius: 15px;
+
+
+}
+
+.card.img1-descrição{
+    margin: 13px 0 0 10px;
+    color: rgb(31, 31, 31);
+    font-size: 15px;
 }
 
  
  
-
 
 
 
