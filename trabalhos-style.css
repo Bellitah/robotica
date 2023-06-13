@@ -28,7 +28,7 @@ body {
     position: relative;
 }
 
-.imagem {
+/*.imagem {
     position: absolute;
     width: 330%;
     left: 320px;
@@ -100,7 +100,7 @@ body {
     top: 379px;
     border-radius: 8px;
 
-}
+}*/
 
 .card.img1{
  padding: 10px;
