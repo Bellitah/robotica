@@ -28,84 +28,24 @@ body {
     position: relative;
 }
 
-.imagem {
-    position: absolute;
-    width: 330%;
-    left: 320px;
-    top: -49px;
-    border-radius: 8px;
-  
-    
+.estudante-imagem {
+    width: 120px;
 }
 
-.ondaverde {
-    position: absolute;
-    width: 330%;
-    left: 320px;
-    top: 379px;
-    border-radius: 8px;
-
+.estudante-nome {
+    color: #FFFFFF;
 }
 
-.imgfotos {
-    position: absolute;
-    width: 330%;
-    left: 320px;
-    top: 810px;
-    border-radius: 8px;
-    
-
+.estudante-icone {
+    width: 24px;
 }
 
-.cruzamentoimg {
-    position: absolute;
-    width: 330%;
-    left: 810px;
-    top: -49px;
-    border-radius: 8px;
-
+.estudante-div {
+    text-align: center;
+    margin: 50px 0 0 0;
 }
 
-.sinalsimples {
-    position: absolute;
-    width: 330%;
-    left: 810px;
-    top: 379px;
-    border-radius: 8px;
-
+.estudante-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
 }
-
-.imgfootos {
-    position: absolute;
-    width: 330%;
-    left: 810px;
-    top: 810px;
-    border-radius: 8px;
-
-}
-
-.projetofoto {
-    position: absolute;
-    width: 330%;
-    left: 1000px;
-    top: -49px;
-    border-radius: 8px;
-    position: absolute;
- 
-}
-
-.trabalhosiimg {
-    position: absolute;
-    width: 330%;
-    left: 1557px;
-    top: 379px;
-    border-radius: 8px;
-
-}
-
-
- 
- 
-
-
-
