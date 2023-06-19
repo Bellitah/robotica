@@ -87,10 +87,11 @@ body {
 .projetofoto {
     position: absolute;
     width: 330%;
-    left: 1557px;
+    left: 1000px;
     top: -49px;
     border-radius: 8px;
-
+    position: absolute;
+ 
 }
 
 .trabalhosiimg {
@@ -105,7 +106,6 @@ body {
 
  
  
-
 
 
 
