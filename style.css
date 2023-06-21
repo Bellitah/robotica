@@ -11,8 +11,8 @@ body {
 .center {
     float: right;
     width: 100%;
-    margin: 30px 0 0 0;
-	max-width: 510px;
+    margin: 5% 0 0 0;
+	max-width: 780px;
 	transform: translatey(0px);
 	animation: float 6s ease-in-out infinite;
     z-index: 1; 
@@ -20,26 +20,26 @@ body {
 
 @keyframes float {
 	0% {
-		transform: translatey(20px);
+		transform: translatey(4%);
 	}
 	50% { 
 		transform: translatey(0px);
 	}
 	100% { 
-		transform: translatey(20px);
+		transform: translatey(4%);
 	}
 }
 
 .principal {
     position: relative;
-    top: 170px;
+    top: 30%;
     margin:0;
     text-align:center;
     font-family: 'Geologica', sans-serif;
 }
 
 .nosso-nome{
-    font-size: 60px;
+    font-size: 500%;
     color: white;
     background-image: linear-gradient(to right, #1E1B8C, #3084F2, #3084F2, #2E38F2);  
     background-clip: text;
@@ -50,8 +50,8 @@ body {
 
 .descricao {
     color: white;
-    font-size: 30px;
-    padding: 80px;
+    font-size: 200%;
+    padding: 60px;
     margin: -20px 0 0 0;
 }
 
@@ -74,6 +74,20 @@ body {
         float: none;
         margin: 0 0 -70px 0;
     }
+
+        @keyframes float {
+            0% {
+                transform: translatey(20px);
+            }
+    
+            50% {
+                transform: translatey(0px);
+            }
+    
+            100% {
+                transform: translatey(20px);
+            }
+        }
 
     .elemento {
         float: right;
