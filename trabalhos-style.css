@@ -1,31 +1,31 @@
-body {
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
     background-color: black;
 }
 
-.nosso-nome {
-    text-align: auto;
+/* .nosso-nome {
+    position: relative;
     color: #FFFFFF;
     left: 50px;
     position: absolute;
     font-size: 40px;
     font-family: 'Inspiration', cursive;
+}  */
+
+.container {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.logo {
-    position: relative;
-    left: 1120px;
-    top: -180px;
-    width: 100px; 
-    height: 100px; 
-    
-}
-
-.entrada {
-    margin: 180px 0 -400px 0;
-    display: inline-block;
-    position: relative;
+.elemento {
+    position: fixed;
+    width: 150px;
+    height: 150px;
 }
 
 .estudante-imagem {
