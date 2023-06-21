@@ -47,5 +47,5 @@ body {
 
 .estudante-todos {
     display: grid;
-    grid-template-columns: 90% 20% 20% 20% 20% ;
+    grid-template-columns: 10% 40% 20% 20% 20% ;
 }
