@@ -42,9 +42,10 @@ body {
 
 .estudante-div {
     text-align: center;
+    margin: 10%;
 }
 
 .estudante-todos {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 10%;
+    grid-template-columns: 20% 20% 20% 20% 0%;
 }
