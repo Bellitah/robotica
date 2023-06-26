@@ -34,6 +34,7 @@ body {
 
 .estudante-nome {
     color: #FFFFFF;
+    margin: 3%;
 }
 
 .estudante-icone {
@@ -42,7 +43,7 @@ body {
 
 .estudante-div {
     text-align: center;
-    margin: 10%;
+    margin: 15%;
 }
 
 .estudante-todos {
