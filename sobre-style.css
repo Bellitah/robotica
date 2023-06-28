@@ -4,8 +4,8 @@
 }
 
 body {
-    height: 100%;
-    background-color: black;
+    height: 100vh;
+    background: linear-gradient( black,#63b6ff, black);
 }
 
 .container {
@@ -17,4 +17,29 @@ body {
     position: fixed;
     width: 150px;
     height: 150px;
+}
+
+.principal {
+    position: relative;
+    top: 30%;
+    margin:0;
+    text-align:center;
+    font-family: 'Geologica', sans-serif;
+}
+
+.escrita{
+    font-size: 200%;
+    color: white;
+    background-image: linear-gradient(to right, #1E1B8C, #3084F2, #3084F2, #2E38F2);  
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+.descricao {
+    color: white;
+    font-size: 200%;
+    padding: 60px;
+    margin: -20px 0 0 0;
 }
