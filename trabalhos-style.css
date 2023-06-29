@@ -22,13 +22,28 @@ body {
     justify-content: flex-end;
 }
 
-.elemento {
+@.elemento {
     position: fixed;
     width: 150px;
     height: 150px;
 }
 
-.estudante-imagem {
+div.polaroid (
+width:80%;
+background-color: white;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+widht: 100%;
+}
+
+div.container {
+text-align: center;
+padding: 10px 20px;
+}
+
+/*.estudante-imagem {
     width: 330px;
     border-radius: 8px;
 }
@@ -50,4 +65,4 @@ body {
 .estudante-todos {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 0%;
-}
+}*/
