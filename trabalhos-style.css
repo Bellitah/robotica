@@ -5,7 +5,7 @@
 
 body {
     height: 100vh;
-    background-color: green;
+    background-color: rgb(0, 0, 0);
 }
 
 /* .nosso-nome {
@@ -30,7 +30,7 @@ body {
 
 .polaroid {
     border-bottom: 60px solid white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(15, 12, 187, 0.801), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 img {
