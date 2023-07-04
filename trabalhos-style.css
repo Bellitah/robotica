@@ -5,17 +5,8 @@
 
 body {
     height: 100vh;
-    background-color: rgb(0, 0, 0);
+    background-color: white;
 }
-
-/* .nosso-nome {
-    position: relative;
-    color: #FFFFFF;
-    left: 50px;
-    position: absolute;
-    font-size: 40px;
-    font-family: 'Inspiration', cursive;
-}  */
 
 .container {
     display: flex;
@@ -30,16 +21,26 @@ body {
 
 .polaroid {
     border-bottom: 60px solid white;
-    box-shadow: 0 4px 8px 0 rgb(66, 99, 243), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 img {
-    width: 20%;
+    width: 100%;
 }
 
 div.container2 {
     text-align: center;
     padding: 10px 20px;
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 0%;
+}
+
+.descricao {
+    color: #000;
+    margin: 3%;
 }
 
 /*.estudante-imagem {
