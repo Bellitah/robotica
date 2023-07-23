@@ -1,6 +1,6 @@
  nav.menu-lateral {
      width: 70px;
-     height: 40px;
+     height: 20px;
      margin: 10px 0 0 0;
      padding: 20px 0 40px 17px;
      /* box-shadow: 2px 2px 2px 2px #78909c; */
@@ -12,6 +12,12 @@
      transition: .5s;
      font-family: 'Geologica', sans-serif;
  }
+
+button {
+background-color: #000;
+border: none;
+widht: 5%;
+}
 
  nav.menu-lateral:hover {
      width: 300px;
