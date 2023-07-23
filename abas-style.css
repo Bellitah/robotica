@@ -16,10 +16,12 @@
 button {
 background-color: #000;
 border: none;
-widht: 500px;
 color: #fff;
 margin: 10px 0 0 20px;
+}
 
+.botao {
+widht: 300%;
 }
 
  nav.menu-lateral:hover {
