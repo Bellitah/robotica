@@ -46,7 +46,7 @@ ul li.ativo{
 }
 
 ul li.item-menu:hover {
-    background: linear-gradient( to right, #78909c 1%, #000 70%)
+    background: transparent;
 }
 
 ul li.item-menu a{
