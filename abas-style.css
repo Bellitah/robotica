@@ -16,8 +16,10 @@
 button {
 background-color: #000;
 border: none;
-widht: 15%;
+widht: 40px;
 color: #fff;
+margin: 10px 0 0 20px;
+
 }
 
  nav.menu-lateral:hover {
