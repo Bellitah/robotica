@@ -86,5 +86,11 @@ ul li.item-menu a .icon i {
     .elemento {
         z-index: -1;
     } 
+
+    nav.menu-lateral:active {
+        widht:100%;
+        height: 100%;
+    } 
+
 } 
  
