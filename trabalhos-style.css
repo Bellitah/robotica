@@ -33,13 +33,19 @@ body {
     text-align: center;
 }
 
+.trabalhos {
+    text-align: center;
+    font-size: 25px;
+    margin: 1em;
+}
+
 .polaroid {
     border-bottom: 60px solid white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 img {
-    width: 100%;
+    width: 70%;
 }
 
 div.container2 {
