@@ -19,6 +19,20 @@ body {
     height: 150px;
 }
 
+
+
+
+
+
+
+
+
+.div-fotos {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    text-align: center;
+}
+
 .polaroid {
     border-bottom: 60px solid white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -29,19 +43,22 @@ img {
 }
 
 div.container2 {
-    text-align: center;
     padding: 10px 20px;
 }
 
-.fotos {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 0%;
-}
 
 .descricao {
     color: #000;
     margin: 3%;
 }
+
+
+
+
+
+
+
+
 
 /*.estudante-imagem {
     width: 330px;
