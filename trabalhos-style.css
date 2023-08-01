@@ -41,7 +41,7 @@ body {
 
 .polaroid {
     border-bottom: 60px solid rgb(255, 255, 255);
-    box-shadow: 0 4px 8px 0 rgb(50, 47, 192), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgb(38, 36, 158), 0 6px 20px 0 rgb(65, 63, 63);
 }
 
 img {
