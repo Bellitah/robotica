@@ -30,7 +30,7 @@ body {
 .escrita{
     font-size: 200%;
     color: white;
-    background-image: linear-gradient(to right, #1E1B8C, rgb(0, 0, 0), #3084F2, #2E38F2);  
+    background-image: linear-gradient(to right, #000000, rgb(0, 0, 0), #000000, #000000);  
     background-clip: text;
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
