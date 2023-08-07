@@ -1,5 +1,5 @@
  nav.menu-lateral {
-     width: 70px;
+     width: 150px;
      height: 20px;
      margin: 10px 0 0 0;
      padding: 20px 0 40px 17px;
@@ -11,17 +11,18 @@
      overflow: hidden;
      transition: .5s;
      font-family: 'Geologica', sans-serif;
-color: #fff;
+    color: #fff;
  }
 
 button {
-background-color: transparent;
-border: none;
-color: #fff;
-margin: 10px 0 6px 20px;
-font-size: 200%;
-
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin: 10px 0 6px 20px;
+    font-size: 200%;
 }
+
+
 
  nav.menu-lateral:hover {
      width: 300px;
@@ -101,7 +102,7 @@ font-size: 200%;
 
      nav.menu-lateral:active {
 
-         widht: 100%;
+         width: 100%;
          height: 100%;
          background-color: transparent;
      }

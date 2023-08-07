@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-size: 20px;
 }
 
 body {
@@ -8,10 +9,21 @@ body {
     background: linear-gradient(black, #011526, black);
 }
 
+.container {
+    float: right;
+}
+
+.elemento {
+    margin: -45px 0 0 0;
+    width: 170px;
+    height: 170px;
+    z-index: 0;
+}
+
 .center {
+    height: 100vh;
     float: right;
     width: 100%;
-    margin: 5% 0 0 0;
     max-width: 780px;
     transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
@@ -33,11 +45,12 @@ body {
 }
 
 .principal {
-    position: relative;
-    top: 30%;
-    margin: 0;
+    align-items: center;
     text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
     font-family: 'Geologica', sans-serif;
+    height: 100vh;
 }
 
 .nosso-nome {
@@ -50,23 +63,70 @@ body {
     color: black;
 }
 
-.descricao {
+.descricao-texto {
     color: white;
-    font-size: 200%;
+    font-size: 150%;
     padding: 60px;
     margin: -20px 0 0 0;
 }
 
-.container {
-    float: right;
+
+
+
+
+
+
+
+
+
+.div-fotos {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
 }
 
-.elemento {
-    margin: -45px 0 0 0;
-    width: 170px;
-    height: 170px;
-    z-index: 0;
+.trabalhos {
+    text-align: center;
+    font-size: 25px;
+    margin: 1em;
 }
+
+.polaroid {
+    border-top: 20px solid rgb(255, 255, 255);
+    border-left: 20px solid rgb(255, 255, 255);
+    border-right: 20px solid rgb(255, 255, 255);
+    border-bottom: 70px solid rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgb(38, 36, 158), 0 6px 20px 0 rgb(65, 63, 63);
+}
+
+img {
+    width: 70%;
+    height: 50%;
+}
+
+div.container2 {
+    padding: 10px 20px;
+}
+
+.container2:hover {
+    transition: 1s all;
+    transform: scale(1.1);
+}
+
+.polaroid:hover {
+    box-shadow: 0px 10px 20px rgb(38, 36, 158), 0 6px 20px 0 rgb(65, 63, 63);
+}
+
+.descricao {
+    color: #fcfcfc;
+    margin: 3%;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 640px) {
     .center {
@@ -95,6 +155,12 @@ body {
         float: right;
         width: 37%;
         height: 37%;
+    }
+
+
+
+    .principal {
+        grid-template-columns: 0%;
     }
 
     .descricao {
