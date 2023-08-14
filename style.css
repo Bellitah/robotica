@@ -9,6 +9,7 @@ body {
     background: linear-gradient(black, #011526, black);
 }
 
+
 .container {
     float: right;
 }
@@ -18,6 +19,10 @@ body {
     width: 150px;
     z-index: 0;
 }
+
+
+
+
 
 .center {
     height: 100vh;
@@ -86,8 +91,11 @@ body {
 
 .trabalhos {
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     margin: 1em;
+    color: #00aaff;
+    font-family: 'Geologica', sans-serif;
+
 }
 
 .polaroid {
@@ -124,29 +132,148 @@ div.container2 {
 
 
 
+.container-video {
+    align-items: center;
+    text-align: center;
+    margin: 0 0 1em 0;
+}
+
+.video{
+    width: 800px;
+    height: 600px;
+}
+
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .member {
+    width: calc(33.33% - 2rem);
+    background-color: #a9a9a9;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s, box-shadow 0.3s;
+  }
+
+  .member.loaded {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .member:focus-within {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px) rotate(-3deg);
+  }
+
+  .member h2 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .member:hover h2 {
+    color: #007bff;
+    transform: scale(1.05);
+  }
+
+  .member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #fff;
+    transition: border-color 0.3s, transform 0.3s, filter 0.3s;
+  }
+
+  .member:focus-within img,
+  .member:hover img {
+    border-color: #007bff;
+    transform: scale(1.1) rotate(3deg);
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+
+  .member:focus-within .social-links,
+  .member:hover .social-links {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .social-links a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+    margin: 0 10px;
+  }
+
+  .social-links a:hover {
+    color: #007bff;
+    transform: scale(1.1) rotate(5deg);
+  }
+
+
+
 
 
 
 
 .footer {
-    background-color: #222;
+    background-color: #001a33;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
   }
+
+  footer a {
+    color: #333;
+    text-decoration: none;
+  }
+
   .logo {
     width: 300px;
+    margin: 0 0 0 2em;
   }
+
   .social-icons {
     display: flex;
     gap: 10px;
   }
+
   .social-icons a {
     text-decoration: none;
     color: #333;
+    background-color: #f1f1f1;
+    border-radius: 100px;
+    padding: 0.5em;
   }
+
   .links {
     display: flex;
     gap: 20px;
@@ -154,11 +281,34 @@ div.container2 {
 
 .copyright {
     text-align: center;
-    background-color: #777;
-    color: #333;
+    color: #f1f1f1;
     font-size: 50%;
 }
 
+
+
+
+
+
+
+
+.botao-flutuante {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #00aaff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.botao-flutuante:hover {
+    background-color: #0092cc;
+}
 
 
 @media screen and (max-width: 640px) {
