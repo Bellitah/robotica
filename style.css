@@ -109,7 +109,7 @@ div.container2 {
 }
 
 .container2:hover {
-    transition: 1s all;
+    transition: 0.5s all;
     transform: scale(1.1);
 }
 
