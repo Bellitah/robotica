@@ -26,7 +26,6 @@ body {
 
 .center {
     height: 100vh;
-    float: right;
     width: 100%;
     max-width: 780px;
     transform: translatey(0px);
