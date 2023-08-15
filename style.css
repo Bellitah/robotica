@@ -343,7 +343,7 @@ div.container2 {
 
 
     .principal {
-        grid-template-columns: 0%;
+        display: none;
     }
 
     .descricao {
