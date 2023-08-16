@@ -7,7 +7,7 @@
 .menu-lateral {
     width: 150px;
     height: 20px;
-    padding: 20px 0 40px 17px;
+    padding: 20px 0 50px 0;
     position: fixed;
     overflow: hidden;
     transition: .5s;
@@ -39,7 +39,6 @@ ul li.item-menu {
      border-top-left-radius: 20px;
      border-bottom-left-radius: 20px;
      border-top-right-radius: 20px;
-     border-bottom-right-radius: -20px;
  }
 
  ul li.ativo {

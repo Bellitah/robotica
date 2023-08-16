@@ -137,10 +137,6 @@ div.container2 {
     margin: 0 0 1em 0;
 }
 
-.video{
-    width: 80%; 
-    height: 60%;
-}
 
 
 
@@ -150,16 +146,18 @@ div.container2 {
 
 
 
-.container {
+.container-membros {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 2rem;
+    background-color: #777;
   }
   
   .member {
     width: calc(33.33% - 2rem);
-    background-color: #a9a9a9;
+    background-color: #000;
+    color: white;
     margin: 1rem;
     padding: 1.5rem;
     border-radius: 10px;
@@ -225,7 +223,7 @@ div.container2 {
   }
 
   .social-links a {
-    color: #333;
+    color: #999;
     text-decoration: none;
     transition: color 0.3s, transform 0.3s;
     margin: 0 10px;
@@ -251,7 +249,7 @@ div.container2 {
   }
 
   footer a {
-    color: #333;
+    color: #999;
     text-decoration: none;
   }
 
