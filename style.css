@@ -8,27 +8,23 @@ body {
     background: linear-gradient(black, #011526, black);
 }
 
-
+/* logo */
 .container {
     float: right;
 }
 
 .elemento {
     margin: 10px;
-    width: 120px;
+    width: 80px;
 }
 
-
-
-
-
+/* robo */
 .center {
     height: 80vh;
     width: 80%;
     max-width: 780px;
     transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
-    z-index: -1;
 }
 
 @keyframes float {
@@ -45,6 +41,7 @@ body {
     }
 }
 
+/* caixa de texto tela inicial */
 .principal {
     align-items: center;
     text-align: center;
@@ -66,19 +63,11 @@ body {
 
 .descricao-texto {
   color: white;
-  padding: 60px;
+  padding: 30px;
   font-size: 100%;
 }
 
-
-
-
-
-
-
-
-
-
+/* fotos polaroid */
 .div-fotos {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -91,7 +80,6 @@ body {
     margin: 1em;
     color: #00aaff;
     font-family: 'Geologica', sans-serif;
-
 }
 
 .polaroid {
@@ -125,24 +113,48 @@ div.container2 {
     margin: 3%;
 }
 
-
-
-
+/* video */
 .container-video {
     align-items: center;
     text-align: center;
-    margin: 0 0 1em 0;
+    margin: 1em;
 }
 
+.video {
+  width: 80vh;
+  height: 50vh;
+}
 
+/* secao texto praticando robotica */
+.section {
+  position: relative;
+  padding: 100px ;
+  text-align: center;
+  font-size: 20px;
+}
 
+.section-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('praticando-robotica.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5; /* ajuste a opacidade conforme desejado */
+}
 
+.content {
+  background-color: rgba(255, 255, 255, 0.836);
+  padding: 20px;
+  border-radius: 10px;
+  color: #000;
+  z-index: 1;
+  font-size: 100%;
+}
 
-
-
-
-
-
+/* membros */
 .container-membros {
     display: flex;
     flex-wrap: wrap;
@@ -231,62 +243,44 @@ div.container2 {
     transform: scale(1.1) rotate(5deg);
   }
 
-
-
-
-
-
-
+/* rodape */
 .footer {
-    background-color: #001a33;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  footer a {
-    color: #999;
-    text-decoration: none;
-  }
-
-  .logo {
-    width: 300px;
-    margin: 0 0 0 2em;
-  }
-
-  .social-icons {
-    display: flex;
-    gap: 10px;
-  }
-
-  .social-icons a {
-    text-decoration: none;
-    color: #333;
-    background-color: #f1f1f1;
-    border-radius: 100px;
-    padding: 0.5em;
-  }
-
-  .links {
-    display: flex;
-    gap: 20px;
-  }
-
-.copyright {
-    text-align: center;
-    color: #f1f1f1;
-    font-size: 50%;
+  background-color: #001a33;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+footer a {
+  color: #999;
+  text-decoration: none;
+}
+.logo {
+  width: 300px;
+  margin: 0 0 0 2em;
+}
+.social-icons {
+  gap: 10px;
+}
+.social-icons a {
+  text-decoration: none;
+  color: #333;
+  background-color: #f1f1f1;
+  border-radius: 100px;
+  padding: 0.5em;
+}
+.links {
+  display: flex;
+  gap: 20px;
+}
+.copyright {
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 50%;
+} 
 
-
-
-
-
-
-
-
-.botao-flutuante {
+/* botao flutuante */
+   .botao-flutuante {
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -302,11 +296,10 @@ div.container2 {
 
 .botao-flutuante:hover {
     background-color: #0092cc;
-}
-
+} 
 
 @media screen and (max-width: 640px) {
-
+    /* robo */
     .center {
         width: 60%;
         height: 30%;
@@ -327,9 +320,11 @@ div.container2 {
         }
     }
 
-
+    /* caixa de texto tela inicial */
     .principal {
       display: block;
+      font-size: 50px;
+
     }
 
     .elemento {
@@ -346,15 +341,17 @@ div.container2 {
       margin: -40px 0 0 0;
       font-size: 15px;
     }
-  
 
+/* secao texto praticando robotica */
+    .section {
+      padding: 20px;
+    }
 
+    .content {
+      font-size: 10px;
+    }
 
-
-
-
-
-
+    /* foto polaroid */
     .polaroid {
       border-top: 5px solid rgb(255, 255, 255);
       border-left: 5px solid rgb(255, 255, 255);
@@ -363,42 +360,31 @@ div.container2 {
       box-shadow: 0 4px 8px 0 rgb(38, 36, 158), 0 6px 20px 0 rgb(65, 63, 63);
       width: 100%;
       height: 40%;
-  }
+    }
+    .descricao {
+      margin: 0;
+      font-size: 50%;
+    }
 
+    /* video */
+    .video {
+      width: 50%;
+      height: 80%;
+    }
 
+    /* membros */
+    .member {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
 
-  .descricao {
-    margin: 0;
-    font-size: 50%;
-}
+    /* rodape */
 
-  .video {
-    width: 50%;
-    height: 80%;
-  }
+    .footer {
+      display: block;
+    }
 
-
-  .member {
-    display: grid;
-    grid-template-columns: 50% 50%;
-  }
-
-
-
-
-
-
-
-  footer {
-    padding: auto;
-  }
-
-  .logo {
-    width: 10%;
-  }
-
-
-  .social-icons a {
-    padding: 0;
-  }
-} 
+    .logo {
+      width: 30px;
+    }
+  } 
