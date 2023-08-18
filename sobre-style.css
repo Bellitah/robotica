@@ -8,15 +8,14 @@ body {
     background: linear-gradient( black,#124094, black);
 }
 
+/* logo */
 .container {
-    display: flex;
-    justify-content: flex-end;
+    float: right;
 }
 
 .elemento {
-    position: fixed;
-    width: 150px;
-    height: 150px;
+    margin: 10px;
+    width: 80px;
 }
 
 .principal {

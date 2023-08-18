@@ -8,15 +8,14 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+/* logo */
 .container {
-    display: flex;
-    justify-content: flex-end;
+    float: right;
 }
 
 .elemento {
-    position: fixed;
-    width: 150px;
-    height: 150px;
+    margin: 10px;
+    width: 80px;
 }
 
 
