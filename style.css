@@ -6,6 +6,7 @@
 
 body {
     background: linear-gradient(black, #011526, black);
+    height: 100vh;
 }
 
 /* logo */
@@ -159,16 +160,16 @@ div.container2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 2rem;
+    padding: 2rem 0;
     background-color: #777;
   }
   
   .member {
-    width: calc(33.33% - 2rem);
+    width: 10px;
     background-color: #000;
     color: white;
-    margin: 1rem;
-    padding: 1.5rem;
+    margin: 0.5rem;
+    padding: 6% 13%;
     border-radius: 10px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -257,7 +258,6 @@ footer a {
 }
 .logo {
   width: 300px;
-  margin: 0 0 0 2em;
 }
 .social-icons {
   gap: 10px;
@@ -372,6 +372,11 @@ footer a {
     }
 
     /* membros */
+    .member img {
+      width: 60px;
+      height: 60px;
+      }
+
     .member {
       display: grid;
       grid-template-columns: 50% 50%;
