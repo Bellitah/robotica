@@ -299,6 +299,12 @@ footer a {
 } 
 
 @media screen and (max-width: 640px) {
+
+  .elemento {
+    float: right;
+    width: 20%;
+}
+
     /* robo */
     .center {
         width: 60%;
@@ -327,19 +333,12 @@ footer a {
 
     }
 
-    .elemento {
-        float: right;
-        width: 27%;
-        height: 27%;
-    }
-
     .nosso-nome {
       font-size: 50px;
     }
 
     .descricao-texto {
-      margin: -40px 0 0 0;
-      font-size: 15px;
+      font-size: 25px;
     }
 
 /* secao texto praticando robotica */
