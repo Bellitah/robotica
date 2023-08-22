@@ -10,7 +10,8 @@ body {
 }
 
 .container {
-    float: right;
+    position: absolute;
+    left: 90%;
 }
 
 .elemento {
