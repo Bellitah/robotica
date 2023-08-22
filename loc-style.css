@@ -18,19 +18,26 @@ body {
     width: 80px;
 }
 
+.wrapper {
+    padding-bottom: 25px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
 .fale-conosco {
+    margin-left: 25px;
+    width: 90%;
     text-align: center;
     color: white;
     font-size: 20px;
     border-radius: 20px;
     padding: 3%;
+    background-color:#071A40;
 }
 
-.fale-conosco li {
-    border-radius: 20px;
+.fale-conosco p {
     padding: 1%;
-    border: solid black 2px;
-    background-color:#071A40;
 }
 
 .titulo {
