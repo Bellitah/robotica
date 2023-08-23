@@ -11,7 +11,7 @@ body {
 
 .container {
     position: absolute;
-    left: 90%;
+    left: 94%;
 }
 
 .elemento {
@@ -21,14 +21,12 @@ body {
 
 .wrapper {
     padding-bottom: 25px;
-    margin: 0px;
     display: flex;
     justify-content: center;
 }
 
 .fale-conosco {
-    margin-left: 25px;
-    width: 90%;
+    width: 88%;
     text-align: center;
     color: white;
     font-size: 20px;
@@ -56,7 +54,7 @@ body {
 }
 
 iframe {
-    width: 90%;
+    width: 88%;
     height: 450px;
     border: 0; 
 }
