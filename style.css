@@ -21,8 +21,8 @@ body {
 
 /* robo */
 .center {
-    height: 80vh;
-    width: 80%;
+    height: 70vh;
+    width: 70%;
     max-width: 780px;
     transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
@@ -142,7 +142,7 @@ div.container2 {
   background-image: url('projetos/praticando-robotica.jpg');
   background-size: cover;
   background-attachment: fixed;
-  opacity: 0.4; /* ajuste a opacidade conforme desejado */
+  opacity: 0.5; /* ajuste a opacidade conforme desejado */
 }
 
 .content {
