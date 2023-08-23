@@ -10,7 +10,8 @@ body {
 
 /* logo */
 .container {
-    float: right;
+    position: absolute;
+    left: 94%;
 }
 
 .elemento {
