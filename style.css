@@ -142,7 +142,7 @@ div.container2 {
   background-image: url('projetos/praticando-robotica.jpg');
   background-size: cover;
   background-attachment: fixed;
-  opacity: 0.5; /* ajuste a opacidade conforme desejado */
+  opacity: 0.4; /* ajuste a opacidade conforme desejado */
 }
 
 .content {
