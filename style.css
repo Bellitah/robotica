@@ -128,26 +128,13 @@ div.container2 {
 /* secao texto praticando robotica */
 .section {
   position: relative;
-  padding: 100px ;
+  padding: 100px;
   text-align: center;
   font-size: 20px;
 }
 
-.section-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('projetos/praticando-robotica.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  opacity: 0.5; /* ajuste a opacidade conforme desejado */
-}
-
 .content {
   background-color: rgba(255, 255, 255, 0.836);
-  padding: 20px;
   border-radius: 10px;
   color: #000;
   z-index: 1;
