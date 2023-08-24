@@ -54,6 +54,7 @@ body {
 }
 
 iframe {
+    border-radius: 20px;
     width: 88%;
     height: 450px;
     border: 0; 
