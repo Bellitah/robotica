@@ -1,17 +1,17 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
+    font-size: 20px;
 }
 
 body {
-    height: 100%;
-    background-color: black;
+    background: linear-gradient(black, #062139, black);
+    height: 100vh;
 }
 
+/* logo */
 .container {
-    position: absolute;
-    left: 94%;
+    float: right;
 }
 
 .elemento {
@@ -23,6 +23,7 @@ body {
     padding-bottom: 25px;
     display: flex;
     justify-content: center;
+    margin: 50px;
 }
 
 .fale-conosco {
@@ -41,11 +42,7 @@ body {
 
 .titulo {
     font-size: 40px;
-    margin: 30px 0 30px 0;
-}
-
-.inf {
-    margin: 10px 0 20px 0;
+    color: rgb(144, 197, 228);
 }
 
 .mapa-conteudo {
@@ -57,25 +54,5 @@ iframe {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 88%;
-    height: 450px;
-    border: 0; 
+    height: 350px;
 }
-
-/* 
-.rodape{
-    background-color: blueviolet;
-}
-
-.rodape-imagem{
-    position: absolute;
-    width: 330%;
-    left: 810px;
-    border-radius: 8px;
-    
-}
-
-.img2 {
-    width:100%;
-    heigth:200%;
-}
- */

@@ -1,17 +1,17 @@
-*{
+* {
     padding: 0;
     margin: 0;
+    font-size: 20px;
 }
 
 body {
+    background-color: black;
     height: 100vh;
-    background: linear-gradient( black,#124094, black);
 }
 
 /* logo */
 .container {
-    position: absolute;
-    left: 94%;
+    float: right;
 }
 
 .elemento {
@@ -19,28 +19,19 @@ body {
     width: 80px;
 }
 
+/*texto*/
 .principal {
-    position: relative;
-    top: 30%;
-    margin:0;
-    text-align:center;
+    display: inline-block;
+    margin: 100px;
+    text-align: center;
     align-items: center;
     font-family: 'Geologica', sans-serif;
 }
 
 .escrita{
-    font-size: 100%;
-    color: white;
-    background-image: linear-gradient(to right, #000000, rgb(0, 0, 0), #000000, #000000);  
-    background-clip: text;
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent;
-    color: black;
-}
-
-.descricao {
-    color: white;
-    font-size: 200%;
-    padding: 60px;
-    margin: -20px 0 0 0;
+    padding: 80px;
+    border-radius: 350px 150px;
+    background-color: #062a49;
+    color: rgb(192, 213, 229);
+    font-size: 40px;
 }
